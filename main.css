@@ -1,0 +1,53 @@
+#main{
+    width:450px;
+    height:500px;
+    border:1px solid blue;
+}
+@keyframes move {
+    from{
+      top: 0px;
+    }
+  }
+  
+  #cube {
+    position: absolute;
+    left: 10px;
+    top: 465px;
+    animation: move 10s;
+  }
+  #gl {
+    position: absolute;
+    left: 64px;
+    top: 445px;
+    animation: move 10s;
+  }
+  #gr {
+    position: absolute;
+    left: 120px;
+    top: 442px;
+    animation: move 10s;
+  }
+  #k {
+    position: absolute;
+    left: 170px;
+    top: 462px;
+    animation: move 10s;
+  }
+  #p {
+    position: absolute;
+    left: 220px;
+    top: 465px;
+    animation: move 10s;
+  }
+  #zl{
+    position: absolute;
+    left: 320px;
+    top: 441px;
+    animation: move 10s;
+  }
+  #zr{
+    position: absolute;
+    left: 370px;
+    top: 441px;
+    animation: move 10s;
+  }
